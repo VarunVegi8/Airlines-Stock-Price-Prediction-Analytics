@@ -1,34 +1,34 @@
-#  Airlines Stock Price Prediction Analytics
+# Airlines Stock Price Prediction Analytics
 
 This project delivers a comprehensive predictive analytics dashboard for airline stock performance using a combination of financial, operational, and market data.
 
 ---
 
-##  Introduction
+## Introduction
 
 **Airlines Stock Price Prediction Analytics** aims to enhance decision-making in the airline industry by integrating real-time and historical datasets. By employing advanced machine learning algorithms and data processing pipelines, the project forecasts airline stock performance and operational trends. It is designed for investors, airline executives, and financial analysts to gain insightful, actionable data.
 
 ---
 
-##  Architecture
+## Architecture
 
 The project leverages a multi-layered architecture for data ingestion, feature engineering, and forecasting:
 
-###  Data Ingestion
+### Data Ingestion
 - Automated collection of airline operational data from the **Bureau of Transportation Statistics (BTS)** and financial data from **Yahoo Finance**.
 - Scheduled via **AWS Lambda** and **EventBridge** for regular updates.
 
-###  Feature Engineering & Modeling
+### Feature Engineering & Modeling
 - Integration and processing of datasets to create enriched features.
-- Predictive models trained include **Ridge**,**Lasso**, **XGBoost**, and **LSTM**, applied on both historical and high-frequency trading data.
+- Predictive models trained include **Ridge**, **Lasso**, **XGBoost**, and **LSTM**, applied on both historical and high-frequency trading data.
 
-###  Dashboard & Analytics
+### Dashboard & Analytics
 - An interactive dashboard visualizes key performance metrics, forecasted trends, and trading signals.
 - Designed to support strategic decision-making in real-time.
 
 ---
 
-##  Technology Used
+## Technology Used
 
 - **Programming Language:**  
   Python
@@ -41,7 +41,7 @@ The project leverages a multi-layered architecture for data ingestion, feature e
 
 ---
 
-##  Dataset Used
+## Dataset Used
 
 The project utilizes comprehensive datasets including:
 
@@ -53,7 +53,7 @@ The project utilizes comprehensive datasets including:
 
 ---
 
-##  Data Pipeline Execution
+## Data Pipeline Execution
 
 1. **Data Collection:**  
    Automated scripts pull data from BTS and Yahoo Finance into raw and processed formats.
@@ -69,7 +69,7 @@ The project utilizes comprehensive datasets including:
 
 ---
 
-##  Challenges Faced
+## Challenges Faced
 
 - Integrating diverse datasets with varying update frequencies and formats.
 - Balancing model complexity with interpretability for different forecasting horizons.
@@ -77,8 +77,18 @@ The project utilizes comprehensive datasets including:
 
 ---
 
-##  GitHub Repository
+## GitHub Repositories
 
-**[Airlines Stock Price Prediction Analytics](https://github.com/VarunVegi8/Airlines-Stock-Price-Prediction-Analytics)**
+### Backend (this repo)
+**[Airlines Stock Price Prediction Analytics – Backend](https://github.com/VarunVegi8/Airlines-Stock-Price-Prediction-Analytics)**  
+This repository contains the complete backend pipeline including data ingestion, modeling, and forecasting.
 
-Contributions, feedback, and suggestions are highly welcome. For more details, please refer to the documentation provided in each module within the repository.
+### Frontend
+**[Flight Forecast Dashboard – Frontend](https://github.com/nitheshbethur39/flight-forecast-dashboard)**  
+A separate interactive web dashboard built using **React**, **Vite**, and **TailwindCSS** that visualizes model outputs, forecast trends, KPIs, and day trading signals for each airline.
+
+---
+
+## Contributions
+
+Contributions, feedback, and suggestions are highly welcome. For more details, please refer to the documentation provided in each module within the repositories.
